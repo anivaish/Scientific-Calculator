@@ -50,9 +50,9 @@ for (item of btn) {
             sc = screen.value;
         }
         else if (btntext === '=') {
-            console.log(sc);
             screen.value = eval(sc);
             sc = screen.value;
+            console.log(sc);
         }
         else {
             if(screen.value[screen.value.length-1]==='%')

@@ -5,7 +5,7 @@
 }
 
 .row-1 {
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 340px;
 }
 
@@ -21,11 +21,5 @@
 button {
     width: 71px;
     height: 50px;
-    font-size: 20px;
-    border: none;
-    outline: none;
-    margin: 7px;
-    border-radius: 4px;
-    box-shadow: 0 0 8px #3a5a79;
-    cursor: pointer;
+    font-size: 18px;
 }
